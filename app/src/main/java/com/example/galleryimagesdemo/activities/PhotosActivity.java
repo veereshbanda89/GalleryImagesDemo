@@ -139,6 +139,10 @@ public class PhotosActivity extends AppCompatActivity {
                         GalleryActivity.al_images.get(int_position).getAl_imagepath().get(finalI).setSynced(true);
                     }
                 });
+            }else {
+                Toast.makeText(getApplicationContext(),
+                        getResources().getString(R.string.already_synced),
+                        Toast.LENGTH_SHORT).show();
             }
         }
 

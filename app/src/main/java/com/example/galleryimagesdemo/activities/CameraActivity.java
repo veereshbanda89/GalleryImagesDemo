@@ -115,7 +115,7 @@ public class CameraActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final File folder = getFilesDir();
-                File capturedImageFolder = new File(folder, "captured_image");
+                File capturedImageFolder = new File(folder, "captured_images");
                 capturedImageFolder.mkdir();
 
                 File file = new File(capturedImageFolder, System.currentTimeMillis() + ".jpg");
