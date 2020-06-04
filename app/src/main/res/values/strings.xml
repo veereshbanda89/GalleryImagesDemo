@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GalleryImages Demo</string>
+    <string name="sync_firebase">Sync to Firebase</string>
+    <string name="gallery">Gallery</string>
+    <string name="uploading">Uploading...</string>
+    <string name="no_internet_connection">Please check your internet connection</string>
+    <string name="upload_successful">Successfully Uploaded to cloud storage</string>
+    <string name="synced">SYNCED</string>
+</resources>
